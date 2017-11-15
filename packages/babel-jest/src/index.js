@@ -14,7 +14,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import jestPreset from 'babel-preset-jest';
-import {transform as babelTransform, util as babelUtil} from 'babel-core';
+import {transform as babelTransform, util as babelUtil} from '@babel/core';
 import babelIstanbulPlugin from 'babel-plugin-istanbul';
 
 const BABELRC_FILENAME = '.babelrc';
